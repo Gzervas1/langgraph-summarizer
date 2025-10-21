@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "summarizer": "./src/langgraph_summarizer.py:graph"
+  },
+  "env": ".env"
+}
