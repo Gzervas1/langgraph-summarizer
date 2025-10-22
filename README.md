@@ -85,9 +85,15 @@ LANGSMITH_PROJECT=langgraph-summarizer  # Optional
 ### With LangGraph Studio
 
 1. Start LangGraph Studio:
-```bash
-langgraph dev
-```
+
+    - If installed dependancies with uv:
+      ```bash
+      uv run langgraph dev
+      ```
+    - If installed dependancies with pip:
+      ```bash
+      langgraph dev
+      ```
 
 2. Open the LangGraph Studio UI in your browser (typically `http://localhost:2024`)
 
